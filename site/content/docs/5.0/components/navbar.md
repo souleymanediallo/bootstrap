@@ -705,7 +705,7 @@ For example, to create an offcanvas navbar that expands into a normal navbar at 
 </nav>
 {{< /example >}}
 
-For an offcanvas navbar that is always collapsed, even at larger viewports, omit the `.navbar-expand` class entirely.
+For an offcanvas navbar that is always collapsed across all breakpoints, omit the `.navbar-expand-*` class entirely.
 
 ```html
 <nav class="navbar navbar-light bg-light fixed-top">
